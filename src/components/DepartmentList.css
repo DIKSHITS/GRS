@@ -1,0 +1,72 @@
+/* DepartmentList.css */
+
+body {
+  background-color:lightblue; /* Light gray background color */
+  font-family: 'Arial', sans-serif;
+}
+
+.content-wrapper {
+  background-color: lightblue; /* Content wrapper background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Add general styling for the form */
+.college-add-department-form-a {
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+/* Apply styles to form labels and inputs */
+.college-add-department-form-a label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #007bff; /* Light blue color */
+}
+
+.college-add-department-form-a input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid lawngreen; /* Light gray border */
+  border-radius: 4px;
+  background-color: blue;
+}
+
+/* Style the Add Department button */
+.college-add-department-form-a button {
+  background-color: #007bff; /* Light blue color */
+  color: lawngreen;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the card */
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .college-add-department-form-a {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .college-add-department-form-a input {
+    font-size: 14px;
+  }
+  
+  .college-add-department-form-a button {
+    font-size: 14px;
+  }
+}

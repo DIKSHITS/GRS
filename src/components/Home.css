@@ -1,0 +1,132 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.raj{
+    background-image: url('https://imgv3.fotor.com/images/share/Free-blue-gradient-pattern-background-from-Fotor.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire container */
+  
+}
+
+/* Set a background color for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333;
+}
+
+.header-a {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Set your desired width */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.title {
+    text-align: center;
+    flex-grow: 1; /* Allow the title to take up the available space */
+}
+
+
+
+
+.notification-text {
+    color: #333;
+}
+
+/* Style the navigation */
+.nav-a {
+   
+    padding: 0.5rem;
+    text-align: center;
+ 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+
+.menu-link-e {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Center the tiles container */
+.tiles-container-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Adjust based on your design needs */
+    margin: 20px 0;
+}
+
+/* Style the user tile */
+.tile.user {
+    background-color: #3498db; /* Blue color */
+}
+
+/* Style the admin tile */
+.tile.admin {
+    background-color: #e74c3c; /* Red color */
+}
+
+.tile {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    width: 45%; /* Adjust the width as needed */
+    margin: 10px; /* Adjust the margin as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tile-link-f {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Content */
+.main-content-p {
+    padding: 2rem;
+    text-align: center; /* Center the text in the main content */
+    color: black;
+}
+
+.welcome-message-p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+
+/* Style the footer with a black background */
+.footer {
+    background-color: #000; /* Black color */
+    color: white;
+    padding: 1.7rem;
+    /* text-align: center; Remove this line to left-align the text */
+}
+
+
+
+/* Additional styles for tile headings and paragraphs */
+.tile h2 {
+    color: black; /* White text color */
+}
+
+.tile p {
+    color: black; /* Light gray text color */
+}
+

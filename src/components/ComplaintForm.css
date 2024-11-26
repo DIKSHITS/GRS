@@ -1,0 +1,89 @@
+/* ComplaintForm.css */
+.sik{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url('https://thumbs.dreamstime.com/b/angry-boss-complain-young-businessman-angry-senior-manager-pointing-finger-to-underling-men-to-complain-mistake-plan-delay-113164260.jpg') center/cover no-repeat; /* Replace 'your-background-image.jpg' with the actual image URL */
+}
+
+.complaint-box {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+ 
+  
+  border-radius: 10px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+ 
+}
+
+.complaint-header {
+  font-size: 24px; /* Adjusted the font size to medium */
+  text-align: center;
+  margin-bottom: 20px;
+  color: gainsboro;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px; /* Adjusted the font size to medium */
+  margin-bottom: 10px;
+  color: gainsboro;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 40%; /* Adjusted the width for consistency */
+  padding: 10px;
+  border: 2px solid lavender;
+  border-radius: 5px;
+  font-size: 10px; /* Adjusted the font size to medium */
+
+}
+
+textarea {
+  min-height: 150px;
+}
+
+select {
+  appearance: none;
+  background: #555;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color:  #555;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 18px; /* Adjusted the font size to medium */
+  width: 100px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  text-align: center;
+}
+
+.ok-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjusted the font size to medium */
+}
+
+.ok-button:hover {
+  background-color: #0056b3;
+}
+ 
+/* ComplaintForm.css */                     

@@ -1,0 +1,47 @@
+/* src/components/About.css */
+
+   
+
+.abouts-sir {
+    background-image: url('https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTZ8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHx8fDE3MDA0NDA4MDF8MA&ixlib=rb-4.0.3'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire container */
+    height: 643px; /* Adjust the height based on your design */
+    position: relative;
+}
+   
+
+
+.about-containers {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+   
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.about-header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.about-content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}

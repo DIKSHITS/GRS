@@ -1,0 +1,48 @@
+const mongoose=require("mongoose")
+mongoose.connect("mongodb://0.0.0.0:27017/react-login-tut")
+.then(()=>{
+    console.log("mongodb connected");
+})
+.catch(()=>{
+    console.log('failed');
+})
+
+
+const newSchema=new mongoose.Schema({
+    email:{
+        type:String,
+        required:true
+    },
+    password:{
+        type:String,
+        required:true
+    },
+    firstName:{
+      type:String,
+      required:true
+    },
+    lastName:{
+      type:String,
+      required:true
+    },
+    contact:{
+      type:String,
+      required:true
+    },
+    gender:{
+      type:String,
+      required:true
+    },
+    userType:{
+      type:String,
+      required:true,
+    },
+    collegeId:{
+      type:String,
+      required:true
+    }
+})
+
+const collection = mongoose.model("collection",newSchema)
+
+module.exports=collection
